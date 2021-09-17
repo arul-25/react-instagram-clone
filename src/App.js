@@ -100,6 +100,7 @@ function App() {
 
 	return (
 		<div className="app">
+			<h1>Deploying success</h1>
 			<Modal open={open} onClose={() => setOpen(false)}>
 				<div style={modalStyle} className={classes.paper}>
 					<form className="app__singup" onSubmit={singUp}>
